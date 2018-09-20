@@ -1,0 +1,5 @@
+PO模式：https://www.cnblogs.com/zhoufankui/p/6096866.html
+
+python+request接口测试:https://www.cnblogs.com/wangxiaoqun/p/6924797.html
+
+log模块使用：https://www.cnblogs.com/goodhacker/p/3355660.html
