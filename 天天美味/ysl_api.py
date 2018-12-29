@@ -2,7 +2,11 @@ from flask import make_response
 from flask import abort
 from flask import Flask
 from flask import render_template
+from flask_bootstrap import Bootstrap
 app = Flask(__name__)
+
+bootstrap = Bootstrap(app)
+
 
 @app.route('/')
 def index():
@@ -18,7 +22,7 @@ def user(name):
 
 @app.errorhandler(404)
 def page_not_find(e):
-    return render_template('404.html'),404
+    return render_template('404_c.html'),404
     # if id == 2:
     #     abort(400)
     # else:
