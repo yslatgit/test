@@ -6,6 +6,7 @@
         <entryData>
           <resourceRoots>
             <path value="file://$PROJECT_DIR$/天天美味" />
+            <path value="file://$PROJECT_DIR$/flasky" />
           </resourceRoots>
         </entryData>
       </entry>
