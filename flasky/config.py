@@ -5,11 +5,9 @@ class Config:
 
     @staticmethod
     def init__app(app):
-        # app.config['SQLALCHEMY_DATABASE_URI'] = app.SQLALCHEMY_DATABASE_URI
-        # app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = app.DEBUG
-        # pass
-        app.config.setdefault('SQLALCHEMY_DATABASE_URI',DevelopmentConfig.SQLALCHEMY_DATABASE_URI )
-        app.config.setdefault('SQLALCHEMY_COMMIT_ON_TEARDOWN',DevelopmentConfig.DEBUG )
+        # app.config.setdefault('SQLALCHEMY_DATABASE_URI',DevelopmentConfig.SQLALCHEMY_DATABASE_URI )
+        # app.config.setdefault('SQLALCHEMY_COMMIT_ON_TEARDOWN',DevelopmentConfig.SQLALCHEMY_COMMIT_ON_TEARDOWN )
+        pass
 
 
 class DevelopmentConfig(Config):
